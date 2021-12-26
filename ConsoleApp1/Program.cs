@@ -10,13 +10,25 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int elements = 3;
-            string[] words = new string[elements];
-            words[0] = "Have";
-            words[1] = "Some";
-            words[2] = "Coffee";
-            string WORD = words[2];
-            Console.WriteLine(WORD);
+            int c = -5;
+            int x = 2;
+            int y = 8;
+            while(c <= 250)
+            {
+                c = c + DoMath(x, y);
+                for(int i = 5; i < 8; i++)
+                {
+                    c = c + DoMath(x, y);
+                }
+            }
+        }
+
+        static int DoMath(int a, int b) //function that does some kind of operation
+        {
+            int variable = 52;
+            int variable1 = a + b + variable;
+            variable1 = variable1 * 2;
+            return variable;
         }
     }
 }
