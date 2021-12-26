@@ -10,10 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string name = "John";
-            string surename = "Doe";
-            string Fullname = name + " " + surename;
-            Console.WriteLine(Fullname);
+            string word = "Friend";
+            char character = word[0];
+
+            Console.WriteLine(character);
             Console.ReadLine();
         }
     }
