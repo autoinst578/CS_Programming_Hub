@@ -10,22 +10,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int A = 15;
-            int B = 15;
-            int C = 20;
-            if(A == B || C > B)
-            {
-                Console.WriteLine("A and B are equal, and C is higher than B");
-            }
-            else if(A == B || C < B)
-            {
-                Console.WriteLine("A and B are equal, B is higher than C");
-            }
-            else
-            {
-                Console.WriteLine("This is Else");
-            }
-
+            int n = 25;
+            for (int i = 0; i < n; i++) ;
         }
     }
 }
