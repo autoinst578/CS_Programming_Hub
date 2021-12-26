@@ -10,25 +10,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int c = -5;
             int x = 2;
             int y = 8;
-            while(c <= 250)
-            {
-                c = c + DoMath(x, y);
-                for(int i = 5; i < 8; i++)
-                {
-                    c = c + DoMath(x, y);
-                }
-            }
+            int c = DoMath(x, y);
+            Console.WriteLine(c);
+
         }
 
-        static int DoMath(int a, int b) //function that does some kind of operation
+        static int DoMath(int a,int b)
         {
-            int variable = 52;
-            int variable1 = a + b + variable;
-            variable1 = variable1 * 2;
-            return variable;
+            return a + b;
         }
     }
 }
