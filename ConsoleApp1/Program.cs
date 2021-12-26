@@ -11,15 +11,17 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             int x = 2;
-            int y = 8;
-            int c = DoMath(x, y);
-            Console.WriteLine(c);
+            string y = null; // null means it does not contain any value
+            DoMath(out x, out y);
+            Console.WriteLine("I have " + x + " " + y);
 
         }
 
-        static int DoMath(int a,int b)
+        static void DoMath(out int a,out string b)
         {
-            return a + b;
+            int v = 15;
+            a = v + 10;
+            b = "Friends";
         }
     }
 }
