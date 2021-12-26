@@ -10,16 +10,21 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int A = 30;
-            int B = 31;
+            int A = 10;
+            int B = 10;
             if (A > B)
             {
                 Console.WriteLine("A is higher than B");
                 Console.ReadLine();
             }
-            else
+            else if ( A < B)
             {
                 Console.WriteLine("B is higher than A");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("A is equal to B");
                 Console.ReadLine();
             }
 
