@@ -15,10 +15,8 @@ namespace ConsoleApp1
             words[0] = "Have";
             words[1] = "Some";
             words[2] = "Coffee";
-            for (int i =0; i < elements; i++)
-            {
-                Console.WriteLine(words[i]);
-            }
+            string WORD = words[2];
+            Console.WriteLine(WORD);
         }
     }
 }
