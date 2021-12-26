@@ -15,10 +15,12 @@ namespace ConsoleApp1
             if (A > B)
             {
                 Console.WriteLine("A is higher than B");
+                Console.ReadLine();
             }
             else
             {
                 Console.WriteLine("B is higher than A");
+                Console.ReadLine();
             }
 
         }
