@@ -10,10 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string word = "Friend";
-            char character = word[0];
+            int a = 58;
+            string sentence = "a equals" + a.ToString();
 
-            Console.WriteLine(character);
+            Console.WriteLine(sentence);
             Console.ReadLine();
         }
     }
