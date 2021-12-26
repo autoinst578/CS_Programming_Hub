@@ -10,14 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int elements = 5;
-            double[] numbers = new double[elements];
-            numbers[0] = 10;
-            numbers[1] = 25;
-            numbers[2] = 27;
+            int elements = 3;
+            string[] words = new string[elements];
+            words[0] = "Have";
+            words[1] = "Some";
+            words[2] = "Coffee";
             for (int i =0; i < elements; i++)
             {
-                Console.WriteLine(numbers[i]);
+                Console.WriteLine(words[i]);
             }
         }
     }
