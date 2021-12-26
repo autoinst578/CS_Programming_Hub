@@ -10,9 +10,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 10; i++)
+            int a = 5;
+            while(a <= 25)
             {
-                for (int j = 0; j < 5; j++) ;
+                a = a + 5;
+                Console.WriteLine(a);
             }
         }
     }
