@@ -15,20 +15,15 @@ namespace ConsoleApp1
             int y = 8;
             while(c <= 250)
             {
-                c = c + DoMath(x, y);
-                for(int i = 5; i < 8; i++)
-                {
-                    c = c + DoMath(x, y);
-                }
+                DoMath(out x, out y);
+                c = c + x + y;
             }
         }
 
-        static int DoMath(int a, int b) //function that does some kind of operation
+        static void DoMath(out int a, out int b) //function that does some kind of operation
         {
-            int variable = 52;
-            int variable1 = a + b + variable;
-            variable1 = variable1 * 2;
-            return variable;
+            a = 15;
+            b = 3;
         }
     }
 }
