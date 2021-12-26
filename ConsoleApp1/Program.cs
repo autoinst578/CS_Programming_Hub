@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
             string name = "John";
             string surename = "Doe";
-            string Fullname = name + surename;
+            string Fullname = name + " " + surename;
             Console.WriteLine(Fullname);
             Console.ReadLine();
         }
