@@ -10,8 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int n = 25;
-            for (int i = 0; i < n; i++) ;
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 5; j++) ;
+            }
         }
     }
 }
