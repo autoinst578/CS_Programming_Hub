@@ -13,10 +13,17 @@ namespace ConsoleApp1
             int A = 15;
             int B = 15;
             int C = 20;
-            if(A == B && C > B)
+            if(A == B || C > B)
             {
                 Console.WriteLine("A and B are equal, and C is higher than B");
-                Console.ReadLine();
+            }
+            else if(A == B || C < B)
+            {
+                Console.WriteLine("A and B are equal, B is higher than C");
+            }
+            else
+            {
+                Console.WriteLine("This is Else");
             }
 
         }
