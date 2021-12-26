@@ -10,9 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            char x = 'a';
-            int i = (int)x;
-            Console.WriteLine(i);
+            string name = "John";
+            string surename = "Doe";
+            string Fullname = name + surename;
+            Console.WriteLine(Fullname);
             Console.ReadLine();
         }
     }
