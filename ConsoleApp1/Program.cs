@@ -10,11 +10,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int a = 58;
-            string sentence = "a equals" + a.ToString();
-
-            Console.WriteLine(sentence);
-            Console.ReadLine();
+            int a;
+            a = int.Parse(Console.ReadLine());
         }
     }
 }
